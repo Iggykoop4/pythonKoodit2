@@ -18,5 +18,3 @@ while user_inputName != username or user_inputPass != password and attempt_numbe
         break
 
 if user_inputName == username and user_inputPass == password: print("Welcome")
-
-
