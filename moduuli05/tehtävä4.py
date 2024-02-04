@@ -7,6 +7,8 @@ for i in range(5):
     city = input("Enter a city name:\n")
     cityNames.append(city)
 
-print(cityNames)
+print (f"Cities entered:\n")
+for city in cityNames:
+    print(city)
 
 
