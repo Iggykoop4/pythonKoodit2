@@ -1,5 +1,5 @@
 while True:
-    gender = str(input(f"Are you male or female?")).upper()
+    gender = input(f"Are you male or female?").upper()
     hemoglobin = int(input(f"What's your hemoglobin value?"))
     if gender == "MALE":
         if hemoglobin < 134:

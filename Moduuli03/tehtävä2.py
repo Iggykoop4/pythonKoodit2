@@ -1,6 +1,6 @@
 while True:
     print(f"Hello, please enter your cabin class\nLUX\nA\nB\nC\n")
-    user_choice = str(input("Which Cabin class you have? :")).upper()
+    user_choice = input("Which Cabin class you have? :").upper()
     if user_choice == "LUX":
         print(f"You have upper-deck cabin with a balcony\n")
         break
