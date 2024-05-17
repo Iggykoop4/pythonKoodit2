@@ -37,7 +37,7 @@ def print_weather_data(weather_data):
     print(f"Current temperature: {kelvin_to_celsius(weather_data['current']['temp'])} degrees Celsius")
 
 def main():
-    api_key = "fe0d21ffb0a2707a9b7557643b4bd36a"
+    api_key = "supersecretAPiKey" #use your own apikey you monkey >:[
     city = input("Enter the name of a municipality: ")
     lat, lon = get_coordinates(api_key, city)
     if lat and lon:
